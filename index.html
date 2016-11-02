@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>sabek</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+   
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+ <!--skinfile can be changed once skin chosen to reduce load-->
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+	
+
+</head>
+<body class="skin-purple hold-transition layout-top-nav ">
+<div class="wrapper">
+<header class="main-header">
+  <nav class="navbar navbar-static-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="branie.html" class="navbar-brand" style=" 50px "><b>Sabek</b></a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+     <div class="nabvbar-custom-menu">
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+        
+          <input type="text" class="form-control" name="userName" placeholder="Username">
+          <input type="password" class="form-control" name="pass" placeholder="password">
+          <input type="submit" name="login" class="btn btn-default btn-flat bg-purple" value="login">
+        </div>
+      </form>
+     </div> 
+    </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+
+<div class="content-wrapper  ">
+<section class="content">
+ <div class="row">
+       
+        <div class="col-md-8">
+          <div class="box box-solid">
+            
+            <div class="box-body">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="http://placehold.it/900x500/39CCCC/ffffff&text=I+Love+Bootstrap" alt="First slide">
+
+                    <div class="carousel-caption">
+                      First Slide
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://placehold.it/900x500/3c8dbc/ffffff&text=I+Love+Bootstrap" alt="Second slide">
+
+                    <div class="carousel-caption">
+                      Second Slide
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://placehold.it/900x500/f39c12/ffffff&text=I+Love+Bootstrap" alt="Third slide">
+
+                    <div class="carousel-caption">
+                      Third Slide
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                  <span class="fa fa-angle-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                  <span class="fa fa-angle-right"></span>
+                </a>
+              </div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+         <div class="col-md-4">
+          <div class="box box-solid">
+            <div class="box-header with-border">
+              <h3 class="box-title">sign up</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+             <form>
+				  <div class="form-group">
+				    <label for="fullname">Full Names:</label>
+				    <input type="text" class="form-control" id="FullName">
+				  </div>
+				  <div class="form-group">
+				    <label for="sex" class="text-center">Sex: </label>
+				    <br>
+				    <input type=radio name=gender> Male</label>
+				    <input type=radio name=gender> Female</label>
+				  </div>
+				  <div class="form-group">
+				    <label for="email">Email address:</label>
+				    <input type="email" class="form-control" id="email">
+				  </div>
+				  <div class="form-group">
+				    <label for="orgName">Organisation Name</label>
+				    <input type="text" class="form-control" id="orgName">
+				  </div>
+				  <div class="form-group">
+				    <label for="pwd">Password:</label>
+				    <input type="password" class="form-control" id="pwd">
+				  </div>
+				  <div class="box-footer">
+				  <button type="submit" class="btn btn-default pull-right">Register</button>
+				  </div>
+				</form>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+      </section>
+      <!--end section-->
+      <section>
+     
+   		<div class="container-fluid text-center bg-purple">
+      <h2 class=text-center style="margin: 40px;"><b>What do we have to offer?</b></h2>
+      
+      <div class=row>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="feature-item animated fadeInUp delay-3">
+      <i class="fa fa-css3"></i>
+      <h4>Unlimited Contacts Storage &amp;</h4>
+      <p>Verified and secure storage of all your contacts.No more complicated excell sheets, our Big Data cloud storage will store it all for you</p>
+      </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="feature-item animated fadeInUp delay-3">
+      <i class="fa fa-laptop"></i>
+      <h4>Contacts Grouping</h4>
+      <p>Groups your contacts and manage them easily using our simple portal, Send messages to groups and to Individuals</p>
+      </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="feature-item animated fadeInUp delay-3">
+      <i class="fa fa-paint-brush"></i>
+      <h4>Unique Alphanumeric id's</h4>
+      <p>Send messages with a unique identifier, Represent your brand as the messages arrive.</p>
+      </div>
+      </div>
+         
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="feature-item animated fadeInUp delay-3">
+      <i class="fa fa fa-th"></i>
+      <h4>Track Your messages</h4>
+      <p>Get updates and notifications of messages sent and replied, delivery rates , in charts and emails. To help you understand indepth on what is happening and how it impacting your bussiness </p>
+      </div>
+      </div>
+      
+      </div>
+      </div>
+      <section>
+      <div class="features-menu" style="display: block; background-color: #fff;">
+
+      <div class="container">
+      <h2 class="text-center" style="margin: 45px"><b>Our Partners</b></h2>
+      
+      <div class="row">
+      	 <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-item animated fadeInUp delay-3">
+                    <img src="http://placehold.it/400x100" alt="company logo" >
+                </div>
+            </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-item animated fadeInUp delay-3">
+                    <img src="http://placehold.it/400x100" alt="company logo" >
+                </div>
+            </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-item animated fadeInUp delay-3">
+                    <img src="http://placehold.it/400x100" alt="company logo" >
+                </div>
+            </div>
+       
+      </div>
+
+      </div>
+      </div>
+      </section>
+      
+
+      </section>
+      <div class="row">
+      <div class="container-fluid" style="padding-bottom: 15px;margin-bottom: 20px">
+      <h2 class="text-center" style="margin: 40px">What our customers are saying</h2>
+  	<div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="http://placehold.it/300x200" alt="founder">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah bla</p>
+        
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="http://placehold.it/300x200" alt="founder">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah bla</p>
+        
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="http://placehold.it/300x200" alt="founder">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah bla</p>
+        
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="http://placehold.it/300x200" alt="founder">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah bla</p>
+        
+    </div>
+  </div>
+  </div>
+
+
+  </div>
+  </div>
+  
+
+<footer class="main-footer" style="background-color: #B8B8B8">
+   
+    <strong>Copyright &copy; 2016 <a href="#">Sabek ltd</a>.</strong> All rights reserved.
+    <p class="pull-right">version 2.3.7</p>
+  </footer>
+
+  </div>
+<!--wrapper-->
+<!-- jQuery 2.2.3 -->
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="plugins/fastclick/fastclick.js"></script>
+<!-- SlimScroll 1.3.0 -->
+<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+
+</body>
+
+</html>
